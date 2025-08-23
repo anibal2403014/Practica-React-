@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/Practica-React-/',   // 👈 debe coincidir con el nombre EXACTO del repo
+  base: '/Practica-React-/',   // <- exactamente tu repo
   plugins: [react(), tailwindcss()],
 })
