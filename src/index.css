@@ -1,6 +1,6 @@
-/* Indica a Tailwind dónde buscar clases durante el build */
-@source "./index.html";
-@source "./src/**/*.{ts,tsx,js,jsx,html}";
+/* Dile a Tailwind dónde escanear clases (rutas relativas a ESTE archivo) */
+@source "../index.html";
+@source "./**/*.{ts,tsx,js,jsx,html}";
 
 /* Carga Tailwind (v4) */
 @import "tailwindcss";
