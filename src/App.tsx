@@ -1,5 +1,4 @@
-import React from "react";
-import { Button } from "./Button";
+import { Button } from './Button'
 
 export default function App() {
   return (
@@ -16,5 +15,5 @@ export default function App() {
         <Button variant="destructive" rounded>Destructivo redondeado</Button>
       </div>
     </main>
-  );
+  )
 }
